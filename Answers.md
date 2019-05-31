@@ -6,6 +6,8 @@
 
 1.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
 
+Class components are used when holding state, functional components can be passed props to present data.
+
 1.  Describe state.
 
 1.  Describe props.

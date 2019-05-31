@@ -69,8 +69,8 @@ Please note:
 - Here's an excerpt of that logic:
 
 ```js
-componentDidMount() {
-  this.getCharacters('https://swapi.co/api/people');
+componentDidMount() {https://swapi.co/api/people
+  this.getCharacters('');
 }
 
 getCharacters = URL => {
