@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <Wrapper>
         <MainHeader>React Wars</MainHeader>
-        <CharacterList />
+        <CharacterList characters={this.state.starwarsChars} />
       </Wrapper>
     )
   }

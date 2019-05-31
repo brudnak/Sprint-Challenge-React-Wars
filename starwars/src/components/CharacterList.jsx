@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
+import CharacterCard from './CharacterCard'
 
 class CharacterList extends Component {
   render() {
-    return (
-      <>
-        <h1>Hello from CharacterList</h1>
-      </>
-    )
+    return this.props.characters.map(character => (
+      <CharacterCard key={character.created} character={character} />
+    ))
   }
 }
 
