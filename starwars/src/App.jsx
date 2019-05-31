@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import CharacterList from './components/CharacterList'
 
 const Wrapper = styled.div`
   text-align: center;
@@ -41,6 +42,7 @@ class App extends Component {
     return (
       <Wrapper>
         <MainHeader>React Wars</MainHeader>
+        <CharacterList />
       </Wrapper>
     )
   }
