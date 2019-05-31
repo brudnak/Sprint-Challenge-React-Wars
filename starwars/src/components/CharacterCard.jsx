@@ -27,8 +27,22 @@ class CharacterCard extends Component {
         return 'https://i.imgur.com/iY4Yrx6.png'
       case 'R2-D2':
         return 'https://i.imgur.com/eXYava5.png'
+      case 'Darth Vader':
+        return 'https://i.imgur.com/fa8EzNL.png'
+      case 'Leia Organa':
+        return 'https://i.imgur.com/TuUgWTZ.png'
+      case 'Owen Lars':
+        return 'https://i.imgur.com/BlugWLe.png'
+      case 'Beru Whitesun lars':
+        return 'https://i.imgur.com/QkPN7EN.png'
+      case 'R5-D4':
+        return 'https://i.imgur.com/7vkAwEG.png'
+      case 'Biggs Darklighter':
+        return 'https://imgur.com/hjMjZxv.png'
+      case 'Obi-Wan Kenobi':
+        return 'https://i.imgur.com/YR3UNU3.png'
       default:
-      // return 'https://lumiere-a.akamaihd.net/v1/images/og-generic_02031d2b.png?region=0%2C0%2C1200%2C1200'
+        return 'https://i.imgur.com/B1KuQcw.png'
     }
   }
 
